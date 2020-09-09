@@ -1,0 +1,19 @@
+#Video URL
+https://www.bilibili.com/video/BV1dJ411N7Um?p=9
+=================================================
+# tomcat8.5 can't be used JDK 11 or JDK 14 to compile
+# Take "tomcat_tutorial.pdf" 1.7 for reference to run tomcat source code
+
+=================================================
+# Java insatall path on Mac
+/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home
+
+=================================================
+#2.4 Catalina Container
+A tomcat can have many services, while one service may include multiple connect and one container.
+
+=================================================
+-Dcatalina.home=/Users/Jack/Downloads/project/tomcat_8.5_source_project/apache-tomcat-8.5.54-src/home
+-Dcatalina.base=/Users/Jack/Downloads/project/tomcat_8.5_source_project/apache-tomcat-8.5.54-src/home
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-Djava.util.logging.config.file=/Users/Jack/Downloads/project/tomcat_8.5_source_project/apache-tomcat-8.5.54-src/home/conf/logging.properties
