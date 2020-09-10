@@ -340,7 +340,7 @@ public final class Bootstrap {
         }
 
         Method method = catalinaDaemon.getClass().getMethod("start", (Class [])null);
-        method.invoke(catalinaDaemon, (Object [])null);
+        method.invoke(catalinaDaemon, (Object [])null); // Call Catalina.start() //catalinaDaemon defined in line 261
     }
 
 

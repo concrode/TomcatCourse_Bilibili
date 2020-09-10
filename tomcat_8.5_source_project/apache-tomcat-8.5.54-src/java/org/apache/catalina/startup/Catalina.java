@@ -543,7 +543,7 @@ public class Catalina {
         initNaming();
 
         // Create and execute our Digester
-        Digester digester = createStartDigester();
+        Digester digester = createStartDigester(); // Digester processes an XML input stream (Analyze tomcat xml files here)
 
         InputSource inputSource = null;
         InputStream inputStream = null;
