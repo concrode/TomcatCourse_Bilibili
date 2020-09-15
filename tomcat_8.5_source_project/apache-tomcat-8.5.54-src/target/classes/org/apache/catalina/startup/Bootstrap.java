@@ -248,6 +248,7 @@ public final class Bootstrap {
      * @throws Exception Fatal initialization error
      */
     public void init() throws Exception {
+        System.out.println("**************** >> Bootstrap init .....");
 
         initClassLoaders();
 
@@ -281,6 +282,7 @@ public final class Bootstrap {
      * Load daemon.
      */
     private void load(String[] arguments) throws Exception {
+        System.out.println("**************** >> Bootstrap load .....");
 
         // Call the load() method
         String methodName = "load";
@@ -335,12 +337,14 @@ public final class Bootstrap {
      * @throws Exception Fatal start error
      */
     public void start() throws Exception {
+        System.out.println("**************** >> Bootstrap start .....");
+
         if (catalinaDaemon == null) {
             init();
         }
 
         Method method = catalinaDaemon.getClass().getMethod("start", (Class [])null);
-        method.invoke(catalinaDaemon, (Object [])null);
+        method.invoke(catalinaDaemon, (Object [])null); // Call Catalina.start() //catalinaDaemon defined in line 261
     }
 
 
@@ -434,6 +438,8 @@ public final class Bootstrap {
      * @param args Command line arguments to be processed
      */
     public static void main(String args[]) {
+
+        System.out.println("**************** >> Bootstrap main start .....");
 
         synchronized (daemonLock) {
             if (daemon == null) {

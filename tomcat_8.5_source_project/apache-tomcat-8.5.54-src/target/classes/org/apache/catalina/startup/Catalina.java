@@ -529,6 +529,7 @@ public class Catalina {
      * Start a new server instance.
      */
     public void load() {
+        System.out.println("**************** >> Catalina load .....");
 
         if (loaded) {
             return;
@@ -543,7 +544,7 @@ public class Catalina {
         initNaming();
 
         // Create and execute our Digester
-        Digester digester = createStartDigester();
+        Digester digester = createStartDigester(); // Digester processes an XML input stream (Analyze tomcat xml files here)
 
         InputSource inputSource = null;
         InputStream inputStream = null;
@@ -636,6 +637,8 @@ public class Catalina {
 
         // Start the new server
         try {
+            System.out.println("**************** >> Catalina call \"getServer().init()\" .....");
+
             getServer().init();
         } catch (LifecycleException e) {
             if (Boolean.getBoolean("org.apache.catalina.startup.EXIT_ON_INIT_FAILURE")) {
@@ -671,6 +674,7 @@ public class Catalina {
      * Start a new server instance.
      */
     public void start() {
+        System.out.println("**************** >> Catalina start .....");
 
         if (getServer() == null) {
             load();

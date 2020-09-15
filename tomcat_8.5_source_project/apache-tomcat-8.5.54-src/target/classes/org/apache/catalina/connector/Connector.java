@@ -1023,6 +1023,7 @@ public class Connector extends LifecycleMBeanBase  {
 
     @Override
     protected void initInternal() throws LifecycleException {
+        System.out.println("**************** >> Connector initInternal .....");
 
         super.initInternal();
 

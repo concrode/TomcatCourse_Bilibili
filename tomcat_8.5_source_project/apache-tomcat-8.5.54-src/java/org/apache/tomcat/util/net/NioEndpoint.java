@@ -213,11 +213,13 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
      */
     @Override
     public void bind() throws Exception {
+        System.out.println("**************** >> NioEndpoint bind .....");
 
         if (!getUseInheritedChannel()) {
             serverSock = ServerSocketChannel.open();
             socketProperties.setProperties(serverSock.socket());
             InetSocketAddress addr = (getAddress()!=null?new InetSocketAddress(getAddress(),getPort()):new InetSocketAddress(getPort()));
+            System.out.println("**************** >> Socket address: " + addr.toString());
             serverSock.socket().bind(addr,getAcceptCount());
         } else {
             // Retrieve the channel provided by the OS
@@ -485,6 +487,8 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
                     try {
                         // Accept the next incoming connection from the server
                         // socket
+                        System.out.println("**************** >> NioEndpoint call \"serverSock.accept()\" .....");
+
                         socket = serverSock.accept();
                     } catch (IOException ioe) {
                         // We didn't get a socket
