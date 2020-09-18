@@ -438,7 +438,7 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
 
 
     @Override
-    protected Log getLog() {
+        protected Log getLog() {
         return log;
     }
 
@@ -487,6 +487,8 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
                     try {
                         // Accept the next incoming connection from the server
                         // socket
+                        System.out.println("*************** >> NioEndpoint call \"serverSock.accept()\" .....");
+
                         socket = serverSock.accept();
                     } catch (IOException ioe) {
                         // We didn't get a socket

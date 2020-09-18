@@ -411,6 +411,7 @@ public class StandardService extends LifecycleMBeanBase implements Service {
      */
     @Override
     protected void startInternal() throws LifecycleException {
+        System.out.println("**************** >> StandardService startInternal .....");
 
         if(log.isInfoEnabled())
             log.info(sm.getString("standardService.start.name", this.name));
@@ -459,6 +460,7 @@ public class StandardService extends LifecycleMBeanBase implements Service {
      */
     @Override
     protected void stopInternal() throws LifecycleException {
+        System.out.println("**************** >> StandardService stopInternal .....");
 
         // Pause connectors first
         synchronized (connectorsLock) {
