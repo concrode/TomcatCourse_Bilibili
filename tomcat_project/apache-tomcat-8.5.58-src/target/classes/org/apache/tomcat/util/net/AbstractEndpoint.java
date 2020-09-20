@@ -1077,6 +1077,7 @@ public abstract class AbstractEndpoint<S> {
             }
             Executor executor = getExecutor();
             if (dispatch && executor != null) {
+                System.out.println("****************** >> AbstractEndpoint executor.execute(sc) .....");
                 executor.execute(sc);
             } else {
                 sc.run();

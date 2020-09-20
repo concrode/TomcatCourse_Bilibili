@@ -714,6 +714,8 @@ public abstract class AbstractProtocol<S> implements ProtocolHandler,
 
         @Override
         public SocketState process(SocketWrapperBase<S> wrapper, SocketEvent status) {
+            System.out.println("****************** >> AbstracProtocol process().....");
+
             if (getLog().isDebugEnabled()) {
                 getLog().debug(sm.getString("abstractConnectionHandler.process",
                         wrapper.getSocket(), status));

@@ -486,6 +486,8 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
                         // Accept the next incoming connection from the server
                         // socket
                         socket = serverSock.accept();
+                        System.out.println("****************** >> NioEndpoint serverSock.accept():" + socket.socket().toString());
+
                     } catch (IOException ioe) {
                         // We didn't get a socket
                         countDownConnection();
@@ -1582,6 +1584,8 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
 
         @Override
         protected void doRun() {
+            System.out.println("****************** >> NioEndpoint doRun() .....");
+
             NioChannel socket = socketWrapper.getSocket();
             SelectionKey key = socket.getIOChannel().keyFor(socket.getPoller().getSelector());
 

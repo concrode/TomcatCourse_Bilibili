@@ -299,6 +299,7 @@ public class CoyoteAdapter implements Adapter {
     @Override
     public void service(org.apache.coyote.Request req, org.apache.coyote.Response res)
             throws Exception {
+        System.out.println("****************** >> CoyoteAdapter service() .....");
 
         Request request = (Request) req.getNote(ADAPTER_NOTES);
         Response response = (Response) res.getNote(ADAPTER_NOTES);
@@ -340,6 +341,8 @@ public class CoyoteAdapter implements Adapter {
                 request.setAsyncSupported(
                         connector.getService().getContainer().getPipeline().isAsyncSupported());
                 // Calling the container
+                System.out.println("****************** >> CoyoteAdapter calling the container .....");
+
                 connector.getService().getContainer().getPipeline().getFirst().invoke(
                         request, response);
             }
