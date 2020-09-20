@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="servlet_demo01:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f3c6ac78-0aeb-45ae-b581-ff2f2e7e14a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.58-src/java/org/apache/catalina/startup/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.58-src/java/org/apache/catalina/startup/Bootstrap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +51,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat8.5">
+  <component name="RunManager" selected="Application.Bootstrap">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -84,8 +90,7 @@
     <configuration name="Bootstrap" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.apache.catalina.startup.Bootstrap" />
       <module name="Tomcat8.5" />
-      <option name="VM_PARAMETERS" value="-Dcatalina.home=$PROJECT_DIR$/apache-tomcat-8.5.58-src/home -Dcatalina.base=$PROJECT_DIR$/apache-tomcat-8.5.58-src/home -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.util.logging.config.file=Users/captain/Downloads/github/TomcatCourse_Bilibili/tomcat_project/apache-tomcat-8.5.58-src/home/conf/logging.properties" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-Dcatalina.home=$PROJECT_DIR$/apache-tomcat-8.5.58-src/home -Dcatalina.base=$PROJECT_DIR$/apache-tomcat-8.5.58-src/home -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djava.util.logging.config.file=$PROJECT_DIR$/apache-tomcat-8.5.58-src/home/conf/logging.properties" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -310,10 +315,62 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="618" y="421" key="#Tomcat_Server/0.23.1680.1027@0.23.1680.1027" timestamp="1600568956212" />
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600568969666">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600573952012">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1600568969666" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1600573952012" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1600573914060">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914060" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1600573914059">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914059" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1600573914059">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914059" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1600573914060">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914060" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom" timestamp="1600573914061">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914061" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center" timestamp="1600573914061">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914061" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left" timestamp="1600573914060">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914060" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right" timestamp="1600573914061">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1600573914061" />
+    <state width="1126" height="280" key="GridCell.Tab.2.bottom" timestamp="1600571642375">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1126" height="280" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1600571642375" />
+    <state width="1126" height="280" key="GridCell.Tab.2.center" timestamp="1600571642374">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1126" height="280" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1600571642374" />
+    <state width="1126" height="280" key="GridCell.Tab.2.left" timestamp="1600571642374">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1126" height="280" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1600571642374" />
+    <state width="1126" height="280" key="GridCell.Tab.2.right" timestamp="1600571642375">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1126" height="280" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1600571642375" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1600573346503">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1600573346503" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

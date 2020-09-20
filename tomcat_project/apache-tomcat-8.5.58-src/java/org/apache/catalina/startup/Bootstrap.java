@@ -334,6 +334,8 @@ public final class Bootstrap {
      * @throws Exception Fatal start error
      */
     public void start() throws Exception {
+        System.out.println("****************** >> Bootstrap start .....");
+
         if (catalinaDaemon == null) {
             init();
         }
