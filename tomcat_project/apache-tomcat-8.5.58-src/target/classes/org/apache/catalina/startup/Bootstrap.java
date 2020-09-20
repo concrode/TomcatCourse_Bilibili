@@ -247,7 +247,8 @@ public final class Bootstrap {
      * @throws Exception Fatal initialization error
      */
     public void init() throws Exception {
-
+        System.out.println("****************** >> Bootstrap init ....");
+        
         initClassLoaders();
 
         Thread.currentThread().setContextClassLoader(catalinaLoader);
@@ -433,6 +434,8 @@ public final class Bootstrap {
      * @param args Command line arguments to be processed
      */
     public static void main(String args[]) {
+
+        System.out.println("****************** >> Bootstrap main ....");
 
         synchronized (daemonLock) {
             if (daemon == null) {
