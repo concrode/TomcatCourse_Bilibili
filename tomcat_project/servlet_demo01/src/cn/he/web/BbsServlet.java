@@ -18,6 +18,6 @@ public class BbsServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("------------- > Post: BbsServlet find all .....");
+        System.out.println("------------- > Get: BbsServlet find all .....");
     }
 }

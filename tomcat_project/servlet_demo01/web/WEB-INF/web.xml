@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <!-- Request is http://localhost:8080/servlet_demo01:war%20exploded/bbs/findAll,
+    <!-- Request is http://localhost:8080/bbs/findAll,
          it finds servlet-name "bbsServlet",
          then "bbsServlet" finds its class "cn.he.web.BbsServlet"
     -->
