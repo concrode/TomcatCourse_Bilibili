@@ -52,6 +52,7 @@ public final class ApplicationFilterFactory {
      */
     public static ApplicationFilterChain createFilterChain(ServletRequest request,
             Wrapper wrapper, Servlet servlet) {
+        System.out.println("****************** >> ApplicationFilterFactory createFilterChain() .....");
 
         // If there is no servlet to execute, return null
         if (servlet == null)

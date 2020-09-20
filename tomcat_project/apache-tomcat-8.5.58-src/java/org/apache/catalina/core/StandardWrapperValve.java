@@ -92,6 +92,7 @@ final class StandardWrapperValve
     @Override
     public final void invoke(Request request, Response response)
         throws IOException, ServletException {
+        System.out.println("****************** >> StandardWrapperValve invoke() .....");
 
         // Initialize local variables we may need
         boolean unavailable = false;
@@ -131,6 +132,8 @@ final class StandardWrapperValve
         // Allocate a servlet instance to process this request
         try {
             if (!unavailable) {
+                System.out.println("****************** >> StandardWrapperValve servlet = wrapper.allocate().....");
+
                 servlet = wrapper.allocate();
             }
         } catch (UnavailableException e) {
