@@ -366,18 +366,21 @@ public abstract class Compiler {
      */
     public void compile(boolean compileClass, boolean jspcMode)
             throws FileNotFoundException, JasperException, Exception {
+        System.out.println("****************** >> Compiler compile() .....");
         if (errDispatcher == null) {
             this.errDispatcher = new ErrorDispatcher(jspcMode);
         }
 
         try {
             final Long jspLastModified = ctxt.getLastModified(ctxt.getJspFile());
+            System.out.println("****************** >> Compiler generateJava() .....");
             String[] smap = generateJava();
             File javaFile = new File(ctxt.getServletJavaFileName());
             if (!javaFile.setLastModified(jspLastModified.longValue())) {
                 throw new JasperException(Localizer.getMessage("jsp.error.setLastModified", javaFile));
             }
             if (compileClass) {
+                System.out.println("****************** >> Compiler generateClass(smap) .....");
                 generateClass(smap);
                 // Fix for bugzilla 41606
                 // Set JspServletWrapper.servletClassLastModifiedTime after successful compile

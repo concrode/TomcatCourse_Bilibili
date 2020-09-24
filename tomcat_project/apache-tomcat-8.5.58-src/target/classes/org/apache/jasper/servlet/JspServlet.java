@@ -280,6 +280,7 @@ public class JspServlet extends HttpServlet implements PeriodicEventListener {
     @Override
     public void service (HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        System.out.println("****************** >> JspServlet service() .....");
 
         // jspFile may be configured as an init-param for this servlet instance
         String jspUri = jspFile;
