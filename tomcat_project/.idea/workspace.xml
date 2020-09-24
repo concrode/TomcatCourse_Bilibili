@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d670ba96-d3c1-4ac7-bcf6-bcd26658911e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apache-tomcat-8.5.58-src/java/org/apache/jasper/compiler/Compiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-8.5.58-src/java/org/apache/jasper/compiler/Compiler.java" afterDir="false" />
-    </list>
+    <list default="true" id="d670ba96-d3c1-4ac7-bcf6-bcd26658911e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +148,7 @@
       <workItem from="1600597362358" duration="4599000" />
       <workItem from="1600603175597" duration="54000" />
       <workItem from="1600603444190" duration="7155000" />
-      <workItem from="1600690092168" duration="3675000" />
+      <workItem from="1600690092168" duration="4186000" />
     </task>
     <servers />
   </component>
