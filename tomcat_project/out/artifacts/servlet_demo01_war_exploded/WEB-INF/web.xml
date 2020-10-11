@@ -10,6 +10,7 @@
     <servlet>
         <servlet-name>bbsServlet</servlet-name>
         <servlet-class>cn.he.com.Bbsservlet</servlet-class>
+        <load-on-startup>1</load-on-startup> <!-- If > 0, this class will be init and loaded after starting tomcat-->
     </servlet>
 
     <servlet-mapping>
@@ -17,5 +18,35 @@
         <url-pattern>/bbs/findAll</url-pattern>
     </servlet-mapping>
     <!-- End bbsServlet-->
+
+    <!-- param can be obtained after starting application-->
+    <context-param>
+        <param-name>param_01</param-name>
+        <param-value>myParamValue</param-value>
+    </context-param>
+
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+        <cookie-config>
+            <name>JSESSIONID_MY</name>
+            <domain>localhost</domain>
+            <path>/</path>
+            <comment>Session Cookie</comment>
+            <http-only>true</http-only> <!-- From Javascript is not allowed-->
+            <secure>false</secure> <!-- If true, only https is allowed -->
+            <max-age>3600</max-age>
+        </cookie-config>
+    </session-config>
+
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error_page_404.html</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error_page_500.html</location>
+    </error-page>
 
 </web-app>
