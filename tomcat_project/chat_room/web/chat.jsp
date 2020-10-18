@@ -20,7 +20,7 @@
     <meta name="x5-fullscreen" content="true">
     <meta name="x5-page-mode" content="app">
     <base target="_blank">
-    <title>ChatRoom</title>
+    <title>黑马-聊天室</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/chat.css">
     <script src="js/jquery-1.9.1.min.js"></script>
@@ -53,16 +53,16 @@
 
                 <div class="abs bottom pnl-text">
                     <div class="abs cover pnl-input">
-                        <textarea class="scroll" id="context_text" onkeydown="sendMessage(self)" wrap="hard" placeholder="Enter text here..."></textarea>
+                        <textarea class="scroll" id="context_text" onkeydown="sendMessage(self)" wrap="hard" placeholder="在此输入文字信息..."></textarea>
                         <div class="abs atcom-pnl scroll hide" id="atcomPnl">
                             <ul class="atcom" id="atcom"></ul>
                         </div>
                     </div>
 
                     <div class="abs br pnl-btn" id="submit" style="background-color: rgb(32, 196, 202); color: rgb(255, 255, 255);" onclick="sendMsg(self)">
-                        Send
+                        发送
                     </div>
-                    <div class="pnl-support" id="copyright"><a href="http://www.itcast.cn">YT CopyRight</a></div>
+                    <div class="pnl-support" id="copyright"><a href="http://www.itcast.cn">传智播客,版本所有</a></div>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                 <div class="slider-container hide"></div>
                 <div class="pnl-right-content">
                     <div class="pnl-tabs">
-                        <div class="tab-btn active" id="hot-tab">Friends List</div>
+                        <div class="tab-btn active" id="hot-tab">好友列表</div>
                     </div>
                     <div class="pnl-hot">
                         <ul class="rel-list unselect" id="userlist">
@@ -83,7 +83,7 @@
 
                 <div class="pnl-right-content">
                     <div class="pnl-tabs">
-                        <div class="tab-btn active">System Broadcast</div>
+                        <div class="tab-btn active">系统广播</div>
                     </div>
                     <div class="pnl-hot">
                         <ul class="rel-list unselect" id="broadcastList">
