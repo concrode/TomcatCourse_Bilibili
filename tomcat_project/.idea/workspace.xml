@@ -2,69 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="servlet_demo01:war exploded" />
+      <artifact name="chat_room:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d670ba96-d3c1-4ac7-bcf6-bcd26658911e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/chat_room_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/chat_room.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/WEB-INF/lib/fastjson-1.2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/WEB-INF/lib/tomcat-websocket.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/WEB-INF/lib/websocket-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/chat.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/css/chat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member003.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member004.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member005.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member006.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member007.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member008.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/avatar/Member009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/box_head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/chat.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/chat_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/emoji/emoji_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/img/upload.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/js/ws.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat_room/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat_room/src/cn/yt/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat_room/web/chat.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/chat_room/web/chat.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,9 +51,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42413792" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.54">
     <configuration name="BootStrap" type="Application" factoryName="Application">
@@ -119,19 +66,71 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.54" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="chat_room:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/chat_room_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_54_Tomcat8_5_2" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65162" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -158,7 +157,7 @@
       <workItem from="1600597362358" duration="4599000" />
       <workItem from="1600603175597" duration="54000" />
       <workItem from="1600603444190" duration="7155000" />
-      <workItem from="1600690092168" duration="15554000" />
+      <workItem from="1600690092168" duration="17622000" />
     </task>
     <servers />
   </component>
@@ -173,10 +172,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="0" y="117" width="1350" height="837" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1602395072831" />
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602395111898">
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602997044131">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602395111898" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1602997044131" />
     <state x="577" y="333" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600662147502">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -189,54 +188,54 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="439" height="466" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1600600494923" />
-    <state width="1638" height="304" key="GridCell.Tab.0.bottom" timestamp="1602934250079">
+    <state width="1126" height="226" key="GridCell.Tab.0.bottom" timestamp="1602998385074">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="304" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602934250079" />
-    <state width="1638" height="304" key="GridCell.Tab.0.center" timestamp="1602934250078">
+    <state width="1126" height="226" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602998385074" />
+    <state width="1126" height="226" key="GridCell.Tab.0.center" timestamp="1602998385073">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="304" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602934250078" />
-    <state width="1638" height="304" key="GridCell.Tab.0.left" timestamp="1602934250078">
+    <state width="1126" height="226" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602998385073" />
+    <state width="1126" height="226" key="GridCell.Tab.0.left" timestamp="1602998385073">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="304" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602934250078" />
-    <state width="1638" height="304" key="GridCell.Tab.0.right" timestamp="1602934250079">
+    <state width="1126" height="226" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602998385073" />
+    <state width="1126" height="226" key="GridCell.Tab.0.right" timestamp="1602998385073">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="304" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602934250079" />
-    <state width="1126" height="226" key="GridCell.Tab.1.bottom" timestamp="1602499856558">
+    <state width="1126" height="226" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602998385073" />
+    <state width="1126" height="226" key="GridCell.Tab.1.bottom" timestamp="1602998384971">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856558" />
-    <state width="1126" height="226" key="GridCell.Tab.1.center" timestamp="1602499856557">
+    <state width="1126" height="226" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384971" />
+    <state width="1126" height="226" key="GridCell.Tab.1.center" timestamp="1602998384971">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856557" />
-    <state width="1126" height="226" key="GridCell.Tab.1.left" timestamp="1602499856557">
+    <state width="1126" height="226" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384971" />
+    <state width="1126" height="226" key="GridCell.Tab.1.left" timestamp="1602998384971">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856557" />
-    <state width="1126" height="226" key="GridCell.Tab.1.right" timestamp="1602499856558">
+    <state width="1126" height="226" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384971" />
+    <state width="1126" height="226" key="GridCell.Tab.1.right" timestamp="1602998384971">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856558" />
-    <state width="1126" height="226" key="GridCell.Tab.2.bottom" timestamp="1602499856559">
+    <state width="1126" height="226" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384971" />
+    <state width="1126" height="226" key="GridCell.Tab.2.bottom" timestamp="1602998384972">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856559" />
-    <state width="1126" height="226" key="GridCell.Tab.2.center" timestamp="1602499856558">
+    <state width="1126" height="226" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384972" />
+    <state width="1126" height="226" key="GridCell.Tab.2.center" timestamp="1602998384972">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856558" />
-    <state width="1126" height="226" key="GridCell.Tab.2.left" timestamp="1602499856558">
+    <state width="1126" height="226" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384972" />
+    <state width="1126" height="226" key="GridCell.Tab.2.left" timestamp="1602998384972">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856558" />
-    <state width="1126" height="226" key="GridCell.Tab.2.right" timestamp="1602499856559">
+    <state width="1126" height="226" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384972" />
+    <state width="1126" height="226" key="GridCell.Tab.2.right" timestamp="1602998384972">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1126" height="226" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602499856559" />
+    <state width="1126" height="226" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1602998384972" />
     <state width="1126" height="280" key="GridCell.Tab.3.bottom" timestamp="1602390669758">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -257,10 +256,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="455" y="243" key="NewModule_or_Project.wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1600586558151" />
-    <state x="247" y="175" width="1245" height="837" key="SettingsEditor" timestamp="1601469175695">
+    <state x="247" y="175" width="1245" height="837" key="SettingsEditor" timestamp="1602998378924">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="247" y="175" width="1245" height="837" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1601469175695" />
+    <state x="247" y="175" width="1245" height="837" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1602998378924" />
     <state x="541" y="291" width="598" height="490" key="find.popup" timestamp="1600601455484">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
